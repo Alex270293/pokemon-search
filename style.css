@@ -1,0 +1,88 @@
+
+.contenedor {
+
+    background-image: url("https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg");
+
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 900px;
+    background-position: center center;
+}
+
+#contenedor-principal{
+    margin-top:5vh;
+    text-align: center;
+    
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    border: 1px solid white;
+    height: auto;
+    padding: 1.5em;
+    padding-top: 1em;
+    margin-top: 5rem;
+    border-radius: 5%;
+    color: white;
+}
+
+tr>th{
+    border: 1px solid white;
+    padding: 5px;
+    width: 0 auto;
+    text-align: center;
+}
+
+tr>td{
+    padding: 1px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#div-imagen{
+    color: aliceblue;
+    background-color: white;
+    border: 1px solid black;
+    width: 30% ;
+    height: auto;
+    border-radius: 5%;
+
+}
+
+#div-nombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    
+}
+
+#height{
+    margin-top:0px ;
+    color: black;
+}
+
+#weight{
+    margin-bottom: 0px;
+    color: black;
+}
+
+#img{
+    text-align: center;
+    
+   
+}
+
+
+span{
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+}
+
+
+.titulo{
+    color: white;
+}
